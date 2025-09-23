@@ -27,9 +27,36 @@ window.addEventListener('resize', function() {
     }
 });
 
+// Submenu toggle functionality
+function toggleSubmenu(submenuId) {
+    const submenu = document.getElementById(submenuId);
+    const button = submenu.previousElementSibling;
+    
+    if (submenu.classList.contains('active')) {
+        submenu.classList.remove('active');
+        button.classList.remove('active');
+    } else {
+        // Close all other submenus first
+        const allSubmenus = document.querySelectorAll('.submenu');
+        const allExpandableButtons = document.querySelectorAll('.expandable');
+        
+        allSubmenus.forEach(function(menu) {
+            menu.classList.remove('active');
+        });
+        
+        allExpandableButtons.forEach(function(btn) {
+            btn.classList.remove('active');
+        });
+        
+        // Open the clicked submenu
+        submenu.classList.add('active');
+        button.classList.add('active');
+    }
+}
+
 // Add click handlers to menu buttons (optional - for future functionality)
 document.addEventListener('DOMContentLoaded', function() {
-    const menuButtons = document.querySelectorAll('.menu-btn');
+    const menuButtons = document.querySelectorAll('.menu-btn:not(.expandable)');
     
     menuButtons.forEach(function(button, index) {
         button.addEventListener('click', function() {
