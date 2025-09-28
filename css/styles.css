@@ -151,6 +151,7 @@ body {
     padding: 30px;
     padding-top: 30px; /* Extra space to prevent menu button overlap */
     padding-bottom: 80px; /* Extra space to prevent bottom line overlap */
+    margin-left: 10px;
     background-color: white;
     min-height: calc(100vh - 80px - 60px); /* Account for header and footer */
     font-family: 'Playfair Display', serif;
