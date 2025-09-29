@@ -626,6 +626,39 @@ body {
     }
 }
 
+/* Parallel sections styling */
+.parallel-sections-container {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+    align-items: flex-start;
+}
+
+.parallel-section {
+    flex: 1;
+    min-width: 0; /* Allow flexbox to shrink */
+}
+
+.parallel-section .programme-table {
+    margin: 0;
+}
+
+.parallel-sections-header {
+    background: #e8f1d8 !important;
+    color: #67754c !important;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px !important;
+}
+
+@media (max-width: 1024px) {
+    .parallel-sections-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 @media (max-width: 480px) {
     .header .logo {
         height: 40px;
@@ -674,5 +707,9 @@ body {
     .bottomline {
         font-size: 12px;
         padding: 10px;
+    }
+
+    .parallel-sections-container {
+        gap: 15px;
     }
 }
