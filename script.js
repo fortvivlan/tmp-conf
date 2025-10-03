@@ -74,3 +74,99 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Photo Gallery Modal Functionality
+let currentImageIndex = 0;
+let currentGalleryImages = [];
+
+function openModal(imageSrc, galleryImages, imageIndex) {
+    const modal = document.getElementById('photoModal');
+    const modalImg = document.getElementById('modalImage');
+    
+    currentGalleryImages = galleryImages;
+    currentImageIndex = imageIndex;
+    
+    modal.style.display = 'block';
+    modalImg.src = imageSrc;
+    
+    // Disable body scrolling
+    document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+    const modal = document.getElementById('photoModal');
+    modal.style.display = 'none';
+    
+    // Re-enable body scrolling
+    document.body.style.overflow = 'auto';
+}
+
+function showPrevImage() {
+    if (currentGalleryImages.length > 1) {
+        currentImageIndex = (currentImageIndex - 1 + currentGalleryImages.length) % currentGalleryImages.length;
+        const modalImg = document.getElementById('modalImage');
+        modalImg.src = currentGalleryImages[currentImageIndex];
+    }
+}
+
+function showNextImage() {
+    if (currentGalleryImages.length > 1) {
+        currentImageIndex = (currentImageIndex + 1) % currentGalleryImages.length;
+        const modalImg = document.getElementById('modalImage');
+        modalImg.src = currentGalleryImages[currentImageIndex];
+    }
+}
+
+// Initialize photo gallery when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    const photoItems = document.querySelectorAll('.photo-item');
+    
+    if (photoItems.length > 0) {
+        // Create modal HTML if it doesn't exist
+        if (!document.getElementById('photoModal')) {
+            const modalHTML = `
+                <div id="photoModal" class="modal">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <button class="modal-nav modal-prev" onclick="showPrevImage()">❮</button>
+                    <div class="modal-content">
+                        <img id="modalImage" src="" alt="Conference Photo">
+                    </div>
+                    <button class="modal-nav modal-next" onclick="showNextImage()">❯</button>
+                </div>
+            `;
+            document.body.insertAdjacentHTML('beforeend', modalHTML);
+        }
+        
+        // Collect all images in the gallery
+        const galleryImages = Array.from(photoItems).map(item => 
+            item.querySelector('img').src
+        );
+        
+        // Add click handlers to photo items
+        photoItems.forEach((item, index) => {
+            item.addEventListener('click', function() {
+                const imgSrc = this.querySelector('img').src;
+                openModal(imgSrc, galleryImages, index);
+            });
+        });
+    }
+});
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeModal();
+    } else if (event.key === 'ArrowLeft') {
+        showPrevImage();
+    } else if (event.key === 'ArrowRight') {
+        showNextImage();
+    }
+});
+
+// Close modal when clicking outside the image
+document.addEventListener('click', function(event) {
+    const modal = document.getElementById('photoModal');
+    if (event.target === modal) {
+        closeModal();
+    }
+});

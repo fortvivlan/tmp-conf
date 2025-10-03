@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Программа конференции 2012 - Типология морфосинтаксических параметров</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.png" alt="Меню">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Фон кнопки">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Фон кнопки">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu active" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn current" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="../images/buttoninv.png" alt="Фон кнопки">
+                        <span>Приглашённые докладчики</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="../images/buttonpubl.png" alt="Фон кнопки">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="../images/buttonprog.png" alt="Фон кнопки">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Программа конференции 2012</h1>
+            <p class="programme-subtitle">2-я тематическая конференция "Типология морфосинтаксических параметров" 14-16 ноября 2012</p>
+
+            <!-- Day 1: Wednesday, November 14 -->
+            <div class="day-section">
+                <h2>Среда, 14 ноября</h2>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">09:30–10:00</td>
+                            <td class="activity">Регистрация</td>
+                        </tr>
+                        <tr>
+                            <td class="time">10:00–10:30</td>
+                            <td class="activity">Открытие конференции</td>
+                        </tr>
+                        <tr class="keynote">
+                            <td class="time">10:30–11:20</td>
+                            <td class="speaker-info">
+                                <strong>Пленарный доклад 1: JAMES LAVINE</strong> (Bucknell University)<br>
+                                <em>Varieties of v and the Structure of 'Anti-Burzio' Predicates</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">11:20–11:30</td>
+                            <td class="activity">Перерыв</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Падеж и согласование, I</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">11:30–12:00</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 1: Петр Аркадьев</strong> (Институт славяноведения РАН / РГГУ / МГГУ им. М.А. Шолохова, Москва)<br>
+                                <em>Причастное согласование и два типа не-номинативных подлежащих в литовском языке</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">12:00–12:30</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 2: Дмитрий Ганенков</strong> (ИЯз РАН)<br>
+                                <em>Частичный контроль с выраженными подлежащими: данные даргинского языка</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">12:30–12:40</td>
+                            <td class="activity">Перерыв</td>
+                        </tr>
+                        <tr class="keynote">
+                            <td class="time">12:40–13:30</td>
+                            <td class="speaker-info">
+                                <strong>Пленарный доклад 2: ПАВЕЛ ГРАЩЕНКОВ</strong> (ИВ РАН)<br>
+                                <em>Об эволюции нефинитных глагольных форм</em>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Падеж и согласование, II</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">13:30–14:00</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 3: Наталья Богомолова</strong> (ИЯз РАН)<br>
+                                <em>Межклаузальное личное согласование в табасаранском языке</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">14:00–15:00</td>
+                            <td class="activity">Обед</td>
+                        </tr>
+                        <tr class="keynote">
+                            <td class="time">15:00–15:50</td>
+                            <td class="speaker-info">
+                                <strong>Пленарный доклад 3: ЛЕОНИД ИОМДИН</strong> (Институт проблем передачи информации им. А.А. Харкевича РАН)<br>
+                                <em>Микросинтаксические конструкции русского языка с лексическим повтором типа читать не читал, но…</em>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Проблемы русской и общей грамматики</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">15:50–16:20</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 4: Александр Летучий</strong> (НИУ ВШЭ)<br>
+                                <em>Синтаксические свойства сентенциальных аргументов русских предикативов</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">16:20–16:50</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 5: Яков Тестелец</strong> (ИЯз РАН / РГГУ)<br>
+                                <em>Проблема сравнительного удаления в русском языке</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">16:50–17:00</td>
+                            <td class="activity">Перерыв</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Разные проблемы лингвистической типологии, I</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">17:00–17:30</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 6: Кирилл Бабаев</strong> (ИВ РАН / РГГУ)<br>
+                                <em>Диахроническая типология систем личного маркирования в африканских языках</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">17:30–18:00</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 7: Георгий Мороз</strong> (МГУ им. М.В. Ломоносова)<br>
+                                <em>Типоспецифические и языкоспецифические морфологические особенности сложных числительных в кавказских языках</em>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Day 2: Thursday, November 15 -->
+            <div class="day-section">
+                <h2>Четверг, 15 ноября</h2>
+
+                <h3>Диахронический синтаксис и изучение клитик, I</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">10:00–10:30</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 8: Андрей Сидельцев</strong> (ИЯз РАН)<br>
+                                <em>Вынесение глагола или фокусное передвижение именной группы в хеттском?</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">10:30–11:00</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 9: Наталья Пименова</strong> (МГГУ им. М.А. Шолохова, Москва)<br>
+                                <em>Является ли thâr частицей в древнесаксонских и древневерхненемецких относительных конструкциях?</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">11:00–11:10</td>
+                            <td class="activity">Перерыв</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Диахронический синтаксис и изучение клитик, II</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">11:10–11:40</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 10: Людмила Хохлова</strong> (ИСАА МГУ им. М.В. Ломоносова)<br>
+                                <em>Местоименные аффиксы в истории западнопенджабского языка</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">11:40–12:10</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 11: Марфа Толстая</strong> (Институт славяноведения РАН)<br>
+                                <em>К описанию карпатоукраинских систем флективных энклитик</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">12:10–12:40</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 12: Антон Циммерлинг</strong> (МГГУ им. М.А. Шолохова, Москва / РГГУ)<br>
+                                <em>Понимание системы порядка слов в старочешском: клитики, передвижение и барьерные правила</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">12:40–13:40</td>
+                            <td class="activity">Обед</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Падеж и структура именной группы, I</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">13:40–14:10</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 13: Алёна Аксёнова</strong> (МГУ им. М.В. Ломоносова) <strong>и Павел Коваль</strong> (МГУ им. М.В. Ломоносова)<br>
+                                <em>Фокусный маркер gena и клитизация адноминальных модификаторов в мишарском языке</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">14:10–14:40</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 14: Олег Беляев</strong> (ИЯз РАН / МГГУ им. М.А. Шолохова, Москва)<br>
+                                <em>Осетинский как язык с двухпадежной системой</em>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Разные вопросы лингвистической типологии, II</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">14:40–15:20</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 15: Анастасия Иванова</strong> (МГУ им. М.В. Ломоносова)<br>
+                                <em>Относительные конструкции в мишарском языке</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">15:20–15:50</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 16: Дмитрий Привознов</strong> (МГУ им. М.В. Ломоносова)<br>
+                                <em>Об одном полисемичном глагольном маркере в мишарском языке</em>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Day 3: Friday, November 16 -->
+            <div class="day-section">
+                <h2>Пятница, 16 ноября</h2>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr class="keynote">
+                            <td class="time">10:30–11:20</td>
+                            <td class="speaker-info">
+                                <strong>Пленарный доклад 4: ВЛАДИМИР АЛПАТОВ</strong> (ИЯз РАН)<br>
+                                <em>Падежная вариативность в японском языке</em>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Падеж и структура именной группы, II</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">11:20–11:50</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 17: Екатерина Лютикова</strong> (МГУ им. М.В. Ломоносова)<br>
+                                <em>Падеж и структура именной группы: дифференцированное маркирование объекта в мишарском языке</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">11:50–12:20</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 18: Ксения Ершова</strong> (ABBYY)<br>
+                                <em>Подвешенная аффиксация в адыгейском языке</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">12:20–12:30</td>
+                            <td class="activity">Перерыв</td>
+                        </tr>
+                        <tr class="keynote">
+                            <td class="time">12:30–13:20</td>
+                            <td class="speaker-info">
+                                <strong>Пленарный доклад 5: ЮРИЙ ЛАНДЕР</strong> (НИУ ВШЭ)<br>
+                                <em>Адноминальные посессоры и понятие прототипа конструкции</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">13:20–13:50</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 19: Сергей Сай</strong> (ИЛИ РАН) <strong>и Мария Овсянникова</strong> (ИЛИ РАН)<br>
+                                <em>Башкирские генитивные посессоры с таксономической точки зрения на посессивные конструкции</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">13:50–15:00</td>
+                            <td class="activity">Обед</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Аргументная структура против синтаксической структуры</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">15:00–15:30</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 20: Андрей Шлуинский</strong> (ИЯз РАН)<br>
+                                <em>Типология морфосинтаксических техник «объединения событий»</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">15:30–16:00</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 21: Наталья Стойнова</strong> (ИРЯ РАН)<br>
+                                <em>Выражения со значением «снова» и аргументная структура</em>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Морфосинтаксис и информационная структура</h3>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">16:00–16:30</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 22: Наталья Сердобольская</strong> (РГГУ / МГГУ им. М.А. Шолохова, Москва)<br>
+                                <em>Информационная структура в противоречии с дискурсивными факторами: данные финно-угорского дифференцированного маркирования объекта</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">16:30–17:00</td>
+                            <td class="speaker-info">
+                                <strong>Доклад 23: Елизавета Кушнир</strong> (ИЯз РАН)<br>
+                                <em>Топикализованные локативы и дативы в языке яуре (южные манде)</em>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">17:00</td>
+                            <td class="activity">Закрытие конференции</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='conference_2012_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

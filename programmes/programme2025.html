@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Программа 2025 - Типология морфосинтаксических параметров</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.png" alt="Меню">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Фон кнопки">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Фон кнопки">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu active" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="../images/buttoninv.png" alt="Фон кнопки">
+                        <span>Приглашённые докладчики</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="../images/buttonpubl.png" alt="Фон кнопки">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="../images/buttonprog.png" alt="Фон кнопки">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Программа конференции 2025 года</h1>
+            
+            <!-- Wednesday, October 8 -->
+            <table class="programme-table">
+                <tr class="day-header">
+                    <td colspan="2">Среда, 8 октября</td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">11:00–11:15</td>
+                    <td class="content-column"><strong>Открытие</strong></td>
+                </tr>
+
+                
+                <tr class="section-header">
+                    <td class="time-column"></td>
+                    <td class="content-column">Секция 1. Простая клауза<br><em>Председатель: А.А. Герасимова</em></td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">11:15–11:45</td>
+                    <td class="content-column">
+                        <div class="author">О.И. Беляев</div>
+                        <div class="affiliation">(МГУ / ИЯз РАН)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Belyaev.pdf" target="_blank">Тайны памирского DOMа: определённость и маркирование прямого дополнения в бартангском языке</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">11:45–12:15</td>
+                    <td class="content-column">
+                        <div class="author">Д.Е. Касенов, М.А. Беркович, И.В. Калякин</div>
+                        <div class="affiliation">(Нью-Йоркский университет), (НИУ ВШЭ), (ИЯз РАН / ГосИРЯ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Kasenov_et_al.pdf" target="_blank">"Failures" of unaccusativity diagnostics as evidence for variable argument linking</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">12:15–12:45</td>
+                    <td class="content-column">
+                        <div class="author">А.В. Крайнова, В.В. Деретич</div>
+                        <div class="affiliation">(МГУ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Krainova_Deretic.pdf" target="_blank">Асимметрия лично-числового предикативного согласования в сербском: экспериментальное исследование</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">12:45–13:15</td>
+                    <td class="content-column">
+                        <div class="author">Л.В. Хохлова</div>
+                        <div class="affiliation">(МГУ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Khokhlova.pdf" target="_blank">Особенности грамматической семантики эргативных конструкций в западных индоарийских языках</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">13:15–13:45</td>
+                    <td class="content-column">
+                        <div class="author">Н.В. Сердобольская, О.В. Тужик</div>
+                        <div class="affiliation">(ИЯз РАН), (ИЯз РАН / НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Serdobolskaya_Tuzhik.pdf" target="_blank">Принцип отбора ядерных актантов и ДОМ в осетинском языке</a></div>
+                    </td>
+                </tr>
+                
+                <tr class="break-row">
+                    <td class="time-column">13:45–14:45</td>
+                    <td class="content-column"><strong>Обед</strong></td>
+                </tr>
+
+                
+                <tr class="section-header">
+                    <td class="time-column"></td>
+                    <td class="content-column">Секция 2. Эллипсис<br><em>Председатель: Ф.В. Байков</em></td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">14:45–15:15</td>
+                    <td class="content-column">
+                        <div class="author">М.О. Бажуков, П.В. Руднев</div>
+                        <div class="affiliation">(НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Bazhukov_Rudnev.pdf" target="_blank">Now you see me, now you don't: MaxElide effects in Russian</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">15:15–15:45</td>
+                    <td class="content-column">
+                        <div class="author">Д.Д. Белова</div>
+                        <div class="affiliation">(ИЯз РАН / НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Belova.pdf" target="_blank">Слусинг в татышлинском удмуртском: портрет конструкции</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">15:45–16:15</td>
+                    <td class="content-column">
+                        <div class="author">В.И. Жукова</div>
+                        <div class="affiliation">(НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Zhukova.pdf" target="_blank">Слюсинг с императивным антецедентом в русском языке</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">16:15–16:45</td>
+                    <td class="content-column">
+                        <div class="author">Р.А. Родионов, М.Ю. Князев</div>
+                        <div class="affiliation">(НИУ ВШЭ — СПб), (ИЛИ РАН / НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Rodionov_Knyazev.pdf" target="_blank">Novel experimental evidence in favor of Argument Ellipsis in Russian</a></div>
+                    </td>
+                </tr>
+                
+                <tr class="break-row">
+                    <td class="time-column">16:45–17:00</td>
+                    <td class="content-column"><strong>Перерыв</strong></td>
+                </tr>
+                
+                <tr class="section-header plenary-row">
+                    <td class="time-column"></td>
+                    <td class="content-column">Пленарный доклад<br><em>Председатель: А.В. Циммерлинг</em></td>
+                </tr>
+                
+                <tr class="plenary-row">
+                    <td class="time-column">17:00–18:00</td>
+                    <td class="content-column">
+                        <div class="author">И.А. Мельчук</div>
+                        <div class="affiliation">(Монреальский университет)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-invited-Melchuk.pdf" target="_blank">Фразы типа (1) Мне есть где спать и типа (2) Мне негде спать</a> | <a href="../abstracts/2025/TMP2025-invited-Melchuk-HO.pdf" target="_blank">хендаут</a></div>
+                    </td>
+                </tr>
+            </table>
+
+            
+            <!-- Thursday, October 9 -->
+            <table class="programme-table">
+                <tr class="day-header">
+                    <td colspan="2">Четверг, 9 октября</td>
+                </tr>
+                
+                <tr class="section-header">
+                    <td class="time-column"></td>
+                    <td class="content-column">Секция 3. Грамматические категории имени и глагола<br><em>Председатель: П.В. Руднев</em></td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">10:00–10:30</td>
+                    <td class="content-column">
+                        <div class="author">Г.Н. Бубнов, А.А. Куликова</div>
+                        <div class="affiliation">(НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Bubnov_Kulikova.pdf" target="_blank">Синтаксические проекции предельности в русском: к объединению семельфактивов и глаголов постепенного достижения</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">10:30–11:00</td>
+                    <td class="content-column">
+                        <div class="author">П.В. Гращенков, Е.Н. Гогуа</div>
+                        <div class="affiliation">(МГУ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Grashchenkov_Gogua.pdf" target="_blank">Структура нивхской словоформы по данным текстов</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">11:00–11:30</td>
+                    <td class="content-column">
+                        <div class="author">К.О. Дунаева</div>
+                        <div class="affiliation">(НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Dunaeva.pdf" target="_blank">Non-spatial functions of spatial cases in Lak</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">11:30–12:00</td>
+                    <td class="content-column">
+                        <div class="author">М.Г. Меленченко, П.В. Падалка</div>
+                        <div class="affiliation">(НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Melenchenko_Padalka.pdf" target="_blank">Besides aspect: How Shughni narratives get around without (im)perfective marking</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">12:00–12:30</td>
+                    <td class="content-column">
+                        <div class="author">Е.Л. Рудницкая</div>
+                        <div class="affiliation">(ИВ РАН)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Rudnitskaya.pdf" target="_blank">Перфективность и предельность в эвенкийском языке</a></div>
+                    </td>
+                </tr>
+                
+                <tr class="break-row">
+                    <td class="time-column">12:30–12:50</td>
+                    <td class="content-column"><strong>Перерыв</strong></td>
+                </tr>
+                
+                <tr class="section-header plenary-row">
+                    <td class="time-column"></td>
+                    <td class="content-column">Пленарный доклад<br><em>Председатель: П.В. Гращенков</em></td>
+                </tr>
+                
+                <tr class="plenary-row">
+                    <td class="time-column">12:50–13:50</td>
+                    <td class="content-column">
+                        <div class="author">Ю.А. Ландер</div>
+                        <div class="affiliation">(НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-invited-Lander.pdf" target="_blank">Частеречные противопоставления и морфология вершин</a></div>
+                    </td>
+                </tr>
+                
+                <tr class="break-row">
+                    <td class="time-column">13:50–15:20</td>
+                    <td class="content-column"><strong>Обед</strong></td>
+                </tr>
+                
+                <tr class="section-header">
+                    <td class="time-column"></td>
+                    <td class="content-column">Секция 4. Синтаксис и семантика местоимений<br><em>Председатель: А.В. Циммерлинг</em></td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">15:20–15:50</td>
+                    <td class="content-column">
+                        <div class="author">П.Н. Астафьев</div>
+                        <div class="affiliation">(НИУ ВШЭ / ГосИРЯ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Astafiev.pdf" target="_blank">Explaining the distribution of Russian nibud' indefinites</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">15:50–16:20</td>
+                    <td class="content-column">
+                        <div class="author">Ф.В. Байков</div>
+                        <div class="affiliation">(МГУ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Baykov.pdf" target="_blank">Отрицательные местоимения и союз ни...ни при отрицательном согласовании через границу именной группы или инфинитивного оборота</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">16:20–16:50</td>
+                    <td class="content-column">
+                        <div class="author">Л.И. Паско</div>
+                        <div class="affiliation">(МГУ / ИЯз РАН)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Pasko.pdf" target="_blank">Слабый переезд в русском языке: сравнение двух экспериментальных методик</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">16:50–17:20</td>
+                    <td class="content-column">
+                        <div class="author">Д.Ю. Писаренко</div>
+                        <div class="affiliation">(НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Pisarenko.pdf" target="_blank">Роль модального оператора в лицензировании местоимений серии -либо</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">17:20–17:50</td>
+                    <td class="content-column">
+                        <div class="author">Д.Б. Тискин</div>
+                        <div class="affiliation">(НИУ ВШЭ — СПб / ИЛИ РАН)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Tiskin.pdf" target="_blank">On semi-fake indexicals</a></div>
+                    </td>
+                </tr>
+            </table>
+
+            
+            <!-- Friday, October 10 -->
+            <table class="programme-table">
+                <tr class="day-header">
+                    <td colspan="2">Пятница, 10 октября</td>
+                </tr>
+                
+                <tr class="section-header">
+                    <td class="time-column"></td>
+                    <td class="content-column">Секция 5. Синтаксис и информационная структура<br><em>Председатель: Т.Е. Янко</em></td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">10:00–10:30</td>
+                    <td class="content-column">
+                        <div class="author">Е.П. Дорофеева</div>
+                        <div class="affiliation">(МГУ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Dorofeeva.pdf" target="_blank">Контрастивный показатель =msA в терском кумыкском</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">10:30–11:00</td>
+                    <td class="content-column">
+                        <div class="author">И.О. Ольхов, С.К. Михайлов</div>
+                        <div class="affiliation">(НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Olkhov_Mikhailov.pdf" target="_blank">К типологии непосессивных употреблений посессивных показателей</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">11:00–11:30</td>
+                    <td class="content-column">
+                        <div class="author">Г.О. Сибилев</div>
+                        <div class="affiliation">(НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Sibilev.pdf" target="_blank">Revisiting Russian copular construction with èto</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">11:30–12:00</td>
+                    <td class="content-column">
+                        <div class="author">Е.С. Иншакова</div>
+                        <div class="affiliation">(НИУ ВШЭ / ИППИ РАН)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Inshakova.pdf" target="_blank">Approximative inversion in Russian: An experimental study</a></div>
+                    </td>
+                </tr>
+                
+                <tr class="break-row">
+                    <td class="time-column">12:00–12:20</td>
+                    <td class="content-column"><strong>Перерыв</strong></td>
+                </tr>
+                
+                <tr class="section-header plenary-row">
+                    <td class="time-column"></td>
+                    <td class="content-column">Пленарный доклад<br><em>Председатель: Е.А. Лютикова</em></td>
+                </tr>
+                
+                <tr class="plenary-row">
+                    <td class="time-column">12:20–13:20</td>
+                    <td class="content-column">
+                        <div class="author">В.Ю. Гусев</div>
+                        <div class="affiliation">(ИЯз РАН / ГосИРЯ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-invited-Gusev.pdf" target="_blank">1-е лицо ед. ч. императива: семантика, типология и употребления</a></div>
+                    </td>
+                </tr>
+                
+                <tr class="break-row">
+                    <td class="time-column">13:20–15:00</td>
+                    <td class="content-column"><strong>Обед</strong></td>
+                </tr>
+                
+                <tr class="section-header">
+                    <td class="time-column"></td>
+                    <td class="content-column">Секция 6. Полипредикативный синтаксис<br><em>Председатель: О.И. Беляев</em></td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">15:00–15:30</td>
+                    <td class="content-column">
+                        <div class="author">А.С. Бадаева</div>
+                        <div class="affiliation">(Чеченский государственный педагогический университет)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Badaeva.pdf" target="_blank">Морфосинтаксические особенности условных конвербов в чеченском языке</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">15:30–16:00</td>
+                    <td class="content-column">
+                        <div class="author">Т.И. Давидюк, Ю.В. Синицына</div>
+                        <div class="affiliation">(ИЯз РАН / МГУ), (МГУ / ГосИРЯ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Davidyuk_Sinitsyna.pdf" target="_blank">Аккузативные субъекты в татышлинском удмуртском</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">16:00–16:30</td>
+                    <td class="content-column">
+                        <div class="author">И.В. Калякин</div>
+                        <div class="affiliation">(ИЯз РАН / ГосИРЯ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Kalyakin.pdf" target="_blank">Two probes, one goal: Towards an analysis of long-distance agreement in Muira Dargwa</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">16:30–17:00</td>
+                    <td class="content-column">
+                        <div class="author">С.А. Оскольская</div>
+                        <div class="affiliation">(ГосИРЯ / ИЛИ РАН)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Oskolskaya.pdf" target="_blank">Выражение субъекта зависимой клаузы в нанайском языке</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">17:00–17:30</td>
+                    <td class="content-column">
+                        <div class="author">Д.Г. Федоров</div>
+                        <div class="affiliation">(НИУ ВШЭ)</div>
+                        <div class="title"><a href="../abstracts/2025/TMP2025-abstracts-Fedorov.pdf" target="_blank">Infinitival object purpose clauses in Baltic, Polish and Russian</a></div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="time-column">17:30–17:45</td>
+                    <td class="content-column"><strong>Закрытие</strong></td>
+                </tr>
+            </table>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='programme2025_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

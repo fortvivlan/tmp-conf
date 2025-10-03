@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Программа конференции 2011 - Типология морфосинтаксических параметров</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.png" alt="Меню">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Фон кнопки">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Фон кнопки">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu active" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Фон кнопки"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Фон кнопки"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Фон кнопки"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Фон кнопки"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn current" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Фон кнопки"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="../images/buttoninv.png" alt="Фон кнопки">
+                        <span>Приглашённые докладчики</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="../images/buttonpubl.png" alt="Фон кнопки">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="../images/buttonprog.png" alt="Фон кнопки">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Программа конференции 2011</h1>
+            <p class="programme-subtitle">1-я тематическая конференция "Типология морфосинтаксических параметров" 2011</p>
+            <p class="venue-info"><strong>Аудитория 200 (первый этаж)</strong></p>
+
+            <!-- Single Day Conference -->
+            <div class="day-section">
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">10:30–11:00</td>
+                            <td class="activity">
+                                Открытие конференции<br>
+                                <em>Приветственное слово проф. Сергея Траятака, проректора МГГУ им. М.А. Шолохова</em>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Семинар I: Русская и общая грамматика</h3>
+                <p class="chair-info"><strong>Председатель:</strong> Антон Циммерлинг</p>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">11:00–11:35</td>
+                            <td class="speaker-info">
+                                <div class="author">Яков Тестелец</div>
+                                <div class="affiliation">(РГГУ / ИЯз РАН)</div>
+                                <div class="title"><a href="../abstracts/2011/Testelets_TypMophParam_handout_2011.pdf" target="_blank">Эллипсис в русском языке: теория против описания</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">11:35–12:10</td>
+                            <td class="speaker-info">
+                                <div class="author">Екатерина Лютикова</div>
+                                <div class="affiliation">(МГУ им. М.В. Ломоносова)</div>
+                                <div class="title"><a href="../abstracts/2011/Lyutikova_Inversion.pdf" target="_blank">О двух типах инверсии в русских именных группах</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">12:10–12:45</td>
+                            <td class="speaker-info">
+                                <div class="author">Александр Летучий</div>
+                                <div class="affiliation">(ИРЯ РАН / НИУ ВШЭ)</div>
+                                <div class="title"><a href="../abstracts/2011/Letuchiy_Systems_of_actant_derivation.pdf" target="_blank">Системы актантной деривации: к типологии</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">12:45–12:50</td>
+                            <td class="activity">Кофе-брейк</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Семинар II: Полипредикативность и конструкции с подъёмом</h3>
+                <p class="chair-info"><strong>Председатель:</strong> Яков Тестелец</p>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">12:50–13:25</td>
+                            <td class="speaker-info">
+                                <div class="author">Петр Аркадьев</div>
+                                <div class="affiliation">(Институт славяноведения РАН / РГГУ)</div>
+                                <div class="title"><a href="../abstracts/2011/h_case_lith_mggu2011_2p.pdf" target="_blank">Неканоническое маркирование аргументов в литовских причастных конструкциях: типология и диахрония</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">13:25–14:00</td>
+                            <td class="speaker-info">
+                                <div class="author">Наталья Сердобольская</div>
+                                <div class="affiliation">(РГГУ)</div>
+                                <div class="title"><a href="../abstracts/2011/Krugl_stol_clause_union_hd.pdf" target="_blank">Подъём vs. объединение клауз: синтаксические критерии диагностики двух типов конструкций</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">14:00–15:00</td>
+                            <td class="activity">Обед</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Семинар III: Типология относительных конструкций</h3>
+                <p class="chair-info"><strong>Председатель:</strong> Леонид Иомдин (Институт проблем передачи информации им. А.А. Харкевича РАН)</p>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">15:00–15:35</td>
+                            <td class="speaker-info">
+                                <div class="author">Юрий Ландер</div>
+                                <div class="affiliation">(ИВ РАН)</div>
+                                <div class="title"><a href="../abstracts/2011/h_11relheads-mggu.pdf" target="_blank">О степени интеграции семантической вершины в относительных конструкциях: синтаксический параметр</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">15:35–16:05</td>
+                            <td class="speaker-info">
+                                <div class="author">Наталья Пименова</div>
+                                <div class="affiliation">(МПГУ / МГГУ им. М.А. Шолохова)</div>
+                                <div class="title"><a href="../abstracts/2011/Pimenova_Two_evolution_lines.pdf" target="_blank">Две эволюционные линии в релятивизации: древневерхненемецкий против древнесаксонского</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">16:05–16:10</td>
+                            <td class="activity">Кофе-брейк</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Семинар IV: Проблемы типологии клитик в синхронии и диахронии</h3>
+                <p class="chair-info"><strong>Председатель:</strong> Петр Аркадьев</p>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">16:10–16:35</td>
+                            <td class="speaker-info">
+                                <div class="author">Антон Циммерлинг</div>
+                                <div class="affiliation">(МГГУ им. М.А. Шолохова / РГГУ)</div>
+                                <div class="title"><a href="../abstracts/2011/AZ_TC_handout.pdf" target="_blank">Типология языков с клитическими кластерами</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">16:35–17:10</td>
+                            <td class="speaker-info">
+                                <div class="author">Андрей Сидельцев</div>
+                                <div class="affiliation">(ИЯз РАН)</div>
+                                <div class="title"><a href="../abstracts/2011/Sideltsev_handout.pdf" target="_blank">К диахронической типологии клитического удвоения: данные хеттского языка</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">17:10–17:45</td>
+                            <td class="speaker-info">
+                                <div class="author">Олег Беляев</div>
+                                <div class="affiliation">(ИЯз РАН)</div>
+                                <div class="title"><a href="../abstracts/2011/handout_Belyaev.pdf" target="_blank">Восхождение клитик из подчинённых клауз в осетинском языке</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">17:45–17:50</td>
+                            <td class="activity">Кофе-брейк</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Семинар V: Разные проблемы лингвистической типологии</h3>
+                <p class="chair-info"><strong>Председатель:</strong> Наталья Сердобольская</p>
+                
+                <table class="programme-table">
+                    <tbody>
+                        <tr>
+                            <td class="time">17:50–18:25</td>
+                            <td class="speaker-info">
+                                <div class="author">Елена Рудницкая</div>
+                                <div class="affiliation">(ИВ РАН)</div>
+                                <div class="title"><a href="../abstracts/2011/Rudnitskaya_Classifier_handout1.pdf" target="_blank">Морфосинтаксис числительных выражений с классификатором в корейском языке</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">18:25–19:00</td>
+                            <td class="speaker-info">
+                                <div class="author">Дмитрий Герасимов</div>
+                                <div class="affiliation">(ИЛИ РАН, Санкт-Петербург)</div>
+                                <div class="title"><a href="../abstracts/2011/mggu_gerasimov_2011.pdf" target="_blank">Кодирование аргументов в парагвайско-гуаранийских битранзитивных конструкциях: типологическая перспектива</a></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">19:00</td>
+                            <td class="activity">Закрытие конференции</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='conference_2011_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
