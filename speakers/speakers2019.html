@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пленарные докладчики 2019 - Типология морфосинтаксических параметров</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.webp" alt="Menu">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Button background">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Button background">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('speakers-submenu')">
+                        <img src="../images/buttoninv.png" alt="Button background">
+                        <span>Приглашенные докладчики</span>
+                    </button>
+                    <ul class="submenu" id="speakers-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../publications.html'">
+                        <img src="../images/buttonpubl.png" alt="Button background">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../programmes.html'">
+                        <img src="../images/buttonprog.png" alt="Button background">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Пленарные докладчики ТМП 2019</h1>
+            
+            <div class="table-container">
+                <table class="speakers-table" style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <!-- Maria Polinsky -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Мария Полински</h3>
+                            <p style="margin: 5px 0;"><a href="../abstracts/2019/TMP2019-invited-Polinsky.pdf" target="_blank" style="text-decoration: none;"><img src="../images/document.png" alt="Abstract" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"><strong>Доклад:</strong> Looking Right: Deriving VOS order in a V1 language</a></p>
+                            <img src="../images/speakers/polinsky.jpg" alt="Мария Полински" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Университет Мэриленда, Гарвардский университет</p>
+                            <p><strong>Текущая аффилиация:</strong> Профессор лингвистики в Университете Мэриленда, Колледж-Парк</p>
+                            
+                            <p><strong>Научные интересы:</strong></p>
+                            <ul>
+                                <li>Синтаксическая теория</li>
+                                <li>Языковые универсалии и межъязыковая вариативность</li>
+                                <li>Языки наследия и их влияние на лингвистическую теорию</li>
+                            </ul>
+                            
+                            <p><strong>Исследовательские области:</strong></p>
+                            <ul>
+                                <li>Различные синтаксические темы: дистантные зависимости, структура глагольных групп, эргативность, порядки слов с начальным глаголом</li>
+                                <li>Первичная работа с различными языками: кавказские, австронезийские и майяские языки</li>
+                                <li>Структурные свойства языков, на которых говорят неуравновешенные билингвы (языки наследия)</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Работает с несколькими исследовательскими станциями и лабораториями</li>
+                                <li>Эксперт по синтаксической теории и типологии</li>
+                                <li>Специалист по языкам наследия и билингвизму</li>
+                            </ul>
+                        </td>
+                        
+                        <!-- Martin Haspelmath -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Мартин Хаспельмат</h3>
+                            <p style="margin: 5px 0;"><a href="../abstracts/2019/TMP2019-invited-Haspelmath.pdf" target="_blank" style="text-decoration: none;"><img src="../images/document.png" alt="Abstract" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"><strong>Доклад:</strong> Ergativity and depth of analysis</a></p>
+                            <img src="../images/speakers/haspelmath.jpg" alt="Мартин Хаспельмат" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Институт истории человечества Макса Планка, Лейпцигский университет</p>
+                            <p><strong>Текущая аффилиация:</strong> Отделение лингвистической и культурной эволюции, Институт эволюционной антропологии Макса Планка</p>
+                            
+                            <p><strong>Научные интересы:</strong> сравнительная лингвистика, изучение разнообразия мировых грамматических и лексических систем, языковые универсалии.</p>
+                            
+                            <p><strong>Основные достижения:</strong></p>
+                            <ul>
+                                <li>Соредактор «Всемирного атласа языковых структур» (2005/2013)</li>
+                                <li>Соучредитель издательства «Language Science Press»</li>
+                                <li>Почетный (адъюнкт) профессор Лейпцигского университета</li>
+                            </ul>
+                            
+                            <p><strong>Исследовательская деятельность:</strong></p>
+                            <ul>
+                                <li>Сравнительный лингвист, изучающий разнообразие мировых грамматических и лексических систем</li>
+                                <li>Исследователь языковых универсалий и того, что является универсальным в языках</li>
+                                <li>Эксперт по типологии и межъязыковому сравнению</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Ведущий специалист в области лингвистической типологии</li>
+                                <li>Автор множества работ по грамматике и лексике</li>
+                                <li>Активный участник международного лингвистического сообщества</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='speakers2019_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

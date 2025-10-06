@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пленарные докладчики 2015 - Типология морфосинтаксических параметров</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.webp" alt="Menu">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Button background">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Button background">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('speakers-submenu')">
+                        <img src="../images/buttoninv.png" alt="Button background">
+                        <span>Приглашенные докладчики</span>
+                    </button>
+                    <ul class="submenu" id="speakers-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../publications.html'">
+                        <img src="../images/buttonpubl.png" alt="Button background">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../programmes.html'">
+                        <img src="../images/buttonprog.png" alt="Button background">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Пленарные докладчики ТМП 2015</h1>
+            
+            <div class="table-container">
+                <table class="speakers-table" style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <!-- Andrei Kibrik -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Андрей Александрович Кибрик</h3>
+                            <img src="../images/speakers/kibrik.jpg" alt="Андрей Александрович Кибрик" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> ИЯз РАН / МГУ</p>
+                            <p><strong>Текущая аффилиация:</strong> Директор Института языкознания РАН, профессор ОТиПЛ МГУ</p>
+                            
+                            <p><strong>Научные интересы:</strong> языковое разнообразие, полевая лингвистика, язык и когнитивная система, функционалистская теория языка, дискурс, устная форма языка, мультимодальность, корпусная лингвистика, компьютерное моделирование, языковая политика.</p>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Директор Института языкознания РАН</li>
+                                <li>Заведующий отделом типологии и ареальной лингвистики</li>
+                                <li>Заведующий сектором ареальной лингвистики</li>
+                                <li>Член-корреспондент РАН</li>
+                                <li>Профессор Отделения теоретической и прикладной лингвистики филологического факультета МГУ им. М. В. Ломоносова</li>
+                                <li>Член Европейской академии (Academia Europaea)</li>
+                                <li>Член Совета при Президенте РФ по русскому языку (2019–2024)</li>
+                                <li>В Институте языкознания с 1988 г.</li>
+                            </ul>
+                            
+                            <p><strong>Исследовательские области:</strong> индейские языки, атабаскские языки, тюркские языки, кавказские языки, западноафриканские языки, русский жестовый язык глухих, русская грамматика.</p>
+                        </td>
+                        
+                        <!-- Atle Grønn -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Атле Грённ</h3>
+                            <img src="../images/speakers/atlegronn.webp" alt="Атле Грённ" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> University of Oslo</p>
+                            
+                            <p><strong>Научные интересы:</strong> русская лингвистика, семантика, прагматика, теоретическая лингвистика.</p>
+                            
+                            <p><strong>Биография:</strong> Атле Грённ (род. 1971) — профессор русской лингвистики в Университете Осло. Помимо академической деятельности, он известен как шахматный комментатор на норвежском телевидении (NRK с 2013 года) и автор шахматных книг для широкой аудитории.</p>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Профессор русской лингвистики в Университете Осло</li>
+                                <li>Специалист по теоретической семантике и прагматике</li>
+                                <li>Исследователь славянских языков</li>
+                                <li>Автор работ по временным и модальным системам в славянских языках</li>
+                            </ul>
+                            
+                            <p><strong>Публикации:</strong> Автор более 2000 шахматных колонок для крупных норвежских газет, а также научных работ по лингвистике. Книги: "Sjakken eller livet" (2016) и "Sjakkgeniene" (2018, в соавторстве с Хансом Олавом Лалумом).</p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <!-- John Bailyn -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Джон Фредерик Бэйлин</h3>
+                            <img src="../images/speakers/bailyn.jpg" alt="Джон Фредерик Бэйлин" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Stony Brook University</p>
+                            
+                            <p><strong>Научные интересы:</strong> теоретический синтаксис, славянский синтаксис, музыкальная когнитивистика, современная русская культура и общество.</p>
+                            
+                            <p><strong>Биография:</strong> Родом из Кембриджа, штат Массачусетс. Профессор лингвистики в Университете Стоуни Брук с докторской степенью Корнельского университета.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>PhD, Cornell University</li>
+                                <li>Продукт программ интенсивного русского погружения в Миддлбери колледже и Ленинградском государственном университете</li>
+                                <li>В 2003 году совместно с Анной Масленниковой из СПбГУ основал Нью-Йоркско-Петербургский институт лингвистики, когнитивистики и культуры</li>
+                                <li>Основал Американский языковой центр — первую в России программу интенсивного изучения английского языка для взрослых (1994)</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Директор департамента лингвистики</li>
+                                <li>Директор программ по России в системе Государственного университета Нью-Йорка</li>
+                                <li>В 2007-2009 руководил российскими институтами программы Critical Languages Scholarship Госдепартамента США</li>
+                                <li>В 2010 году создал Advanced Critical Language Institute (ACLI)</li>
+                            </ul>
+                        </td>
+                        
+                        <!-- Alexander Berdichevskij -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Александр Бердичевский (Gensling)</h3>
+                            <img src="../images/speakers/berdichevskij.jpg" alt="Александр Бердичевский" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Университет Тромсё</p>
+                            <p><strong>Текущая аффилиация:</strong> Научный сотрудник Шведского языкового банка при Университете Гетеборга</p>
+                            
+                            <p><strong>Научные интересы:</strong> языковые изменения и их причины, корпусная и компьютерная лингвистика, количественные подходы к типологии, объяснительные подходы к языковой сложности.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>PhD по лингвистике</li>
+                                <li>Окончил отделение теоретической и прикладной лингвистики МГУ</li>
+                                <li>Научный сотрудник Шведского языкового банка при Университете Гетеборга</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Занимался организацией ряда лингвистических олимпиад</li>
+                                <li>Учреждение и проведение Международной олимпиады по лингвистике</li>
+                                <li>В 2007–2009 гг. работал редактором отдела науки в изданиях «Лента.ру» и «Русский Newsweek»</li>
+                                <li>С 2011 по 2018 г. редактировал раздел «Лингвистические задачи» для проекта «Элементы.ру»</li>
+                            </ul>
+                            
+                            <p><strong>Исследования:</strong> Специализируется на расчетах, моделях и экспериментах в области языковой сложности, применяет количественные методы в типологических исследованиях.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='speakers2015_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Programmes - Typology of Morphosyntactic Parameters</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="images/logo-rus-eng.png" alt="Typology of Morphosyntactic Parameters" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="images/menu-2925825_1280.png" alt="Menu">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='index_en.html'">
+                        <img src="images/buttonmain.png" alt="Button background">
+                        <span>Home</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="images/buttonconf.png" alt="Button background">
+                        <span>Conferences</span>
+                    </button>
+                    <ul class="submenu" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2025_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2024_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2023_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2022_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2021_en.html'">
+                            <img src="images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2020_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2019_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2018_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2017_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2016_en.html'">
+                            <img src="images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2015_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2014_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2013_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2012_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2011_en.html'">
+                            <img src="images/buttonconf.png" alt="Button background"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('speakers-submenu')">
+                        <img src="images/buttoninv.png" alt="Button background">
+                        <span>Invited Speakers</span>
+                    </button>
+                    <ul class="submenu" id="speakers-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2025_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2024_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2023_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2022_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2021_en.html'">
+                            <img src="images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2020_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2019_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2018_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2017_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2016_en.html'">
+                            <img src="images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2015_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2014_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2013_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2012_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='publications_en.html'">
+                        <img src="images/buttonpubl.png" alt="Button background">
+                        <span>Publications</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="images/buttonprog.png" alt="Button background">
+                        <span>Past Programmes</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>TMP Conference Programmes</h1>
+            <p>Overview of all conferences in the "Typology of Morphosyntactic Parameters" series from 2011 to 2025.</p>
+
+            <table class="programme-table">
+                <thead>
+                    <tr class="day-header">
+                        <th>Year</th>
+                        <th>Invited Speakers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2025_en.html">2025</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Igor A. Mel'čuk (University of Montreal)</li>
+                                <li>Yury A. Lander (HSE University)</li>
+                                <li>Valentin Yu. Gusev (Institute of Linguistics RAS / Pushkin State Russian Language Institute)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2024.html">2024</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Pavel V. Rudnev (HSE University)</li>
+                                <li>Elena V. Petrukhina (Moscow State University)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2023.html">2023</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Mikhail Yu. Knyazev (Institute for Linguistic Studies RAS / HSE University)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2022.html">2022</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Anna Urmanchieva</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2021.html">2021</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Iliyana Krapova (Ca' Foscari University of Venice)</li>
+                                <li>Guglielmo Cinque (Ca' Foscari University of Venice)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2020.html">2020</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Mark Baker (Rutgers University)</li>
+                                <li>Leonid Kulikov (Ghent University)</li>
+                                <li>Marina Chumakina (University of Surrey)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2019.html">2019</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Maria Polinsky (University of Maryland)</li>
+                                <li>Martin Haspelmath (Max Planck Institute)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2018.html">2018</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Jacek Witkoś</li>
+                                <li>John Bailyn</li>
+                                <li>Lisa Bylinina</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2017.html">2017</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Nina Sumbatova</li>
+                                <li>Olga V. Fedorova</li>
+                                <li>Boris Orekhov (Gensling)</li>
+                                <li>Natalia Slioussar (Gensling)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2016.html">2016</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Alena Witzlack-Makarevich</li>
+                                <li>Ivan Igartua & Nerea Madariaga</li>
+                                <li>Tatiana Nikitina (Gensling)</li>
+                                <li>Dmitri Sitchinava (Gensling)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2015.html">2015</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Andrej E. Kibrik</li>
+                                <li>Atle Grønn</li>
+                                <li>John Bailyn</li>
+                                <li>Alexander Berdichevsky (Gensling)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2014.html">2014</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Tomas Riad</li>
+                                <li>Yury Kuzmenko</li>
+                                <li>Sergei G. Tatevosov</li>
+                                <li>Andrey Shluinsky (Gensling)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2013.html">2013</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>Vera Podlesskaya</li>
+                                <li>Ora Matushansky</li>
+                                <li>Natalia Slioussar (Gensling)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2012.html">2012</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li>James Lavine</li>
+                                <li>Pavel V. Grashchenkov</li>
+                                <li>Leonid Iomdin</li>
+                                <li>Vladimir Alpatov</li>
+                                <li>Yury A. Lander</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time-column"><a href="programmes/programme2011.html">2011</a></td>
+                        <td class="content-column">
+                            <ul>
+                                <li><em>None</em></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Contacts<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='programmes.html'">
+            RU
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

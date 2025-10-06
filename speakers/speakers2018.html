@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пленарные докладчики 2018 - Типология морфосинтаксических параметров</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.webp" alt="Menu">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Button background">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Button background">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('speakers-submenu')">
+                        <img src="../images/buttoninv.png" alt="Button background">
+                        <span>Приглашенные докладчики</span>
+                    </button>
+                    <ul class="submenu" id="speakers-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../publications.html'">
+                        <img src="../images/buttonpubl.png" alt="Button background">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../programmes.html'">
+                        <img src="../images/buttonprog.png" alt="Button background">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Пленарные докладчики ТМП 2018</h1>
+            
+            <div class="table-container">
+                <table class="speakers-table" style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <!-- John Bailyn -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Джон Ф. Бейлин</h3>
+                            <p style="margin: 5px 0;"><strong>Доклад:</strong> Russian Word Order and the Fate of Syntactic Theory</p>
+                            <img src="../images/speakers/bailyn.jpg" alt="Джон Ф. Бейлин" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Университет Стоуни-Брук</p>
+                            <p><strong>Текущая аффилиация:</strong> Профессор лингвистики, директор департамента лингвистики</p>
+                            
+                            <p><strong>Научные интересы:</strong> теоретический синтаксис, славянский синтаксис, музыкальная когниция, современная русская культура и общество.</p>
+                            
+                            <p><strong>Биография:</strong> Родом из Кембриджа, Массачусетс. Получил степень PhD в Корнеллском университете.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>PhD по лингвистике, Корнеллский университет</li>
+                                <li>Продукт программ интенсивного изучения русского языка в Миддлбери Колледж и Ленинградском госуниверситете</li>
+                                <li>2003: соучредитель NY-St. Petersburg Institute of Linguistics, Cognition and Culture</li>
+                                <li>1994: основал American Language Center — первую программу интенсивного изучения английского языка для взрослых в России</li>
+                                <li>2007-2009: руководил российскими институтами программы Critical Languages Scholarship Госдепартамента США</li>
+                                <li>2010: создал Advanced Critical Language Institute (ACLI)</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Директор Russia Programs Network для системы Университета штата Нью-Йорк</li>
+                                <li>Проживает в Бруклине, Нью-Йорк</li>
+                                <li>Регулярный преподаватель на летних институтах Лингвистического общества Америки</li>
+                            </ul>
+                        </td>
+                        
+                        <!-- Jacek Witkoś -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Яцек Виткош</h3>
+                            <p style="margin: 5px 0;"><strong>Доклад:</strong> Dative and accusative experiencers and anaphoric binding</p>
+                            <img src="../images/speakers/witkos.png" alt="Яцек Виткош" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Университет Познани</p>
+                            <p><strong>Текущая аффилиация:</strong> Профессор гуманитарных наук, проректор Университета им. Адама Мицкевича в Познани</p>
+                            
+                            <p><strong>Научные интересы:</strong> английское языкознание, генеративная грамматика, синтаксис и морфология английского языка, сравнительный англо-польский синтаксис и морфология, синтаксис германских и славянских языков.</p>
+                            
+                            <p><strong>Биография:</strong> Родился 22 февраля 1963 года в Щецине. Польский филолог-англист, специализирующийся в области английского языкознания.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>1986: окончил политические науки в Институте политических наук и журналистики УАМ</li>
+                                <li>1987: окончил английскую филологию в Институте английской филологии УАМ</li>
+                                <li>1993: получил степень доктора гуманитарных наук на основе работы "Some Aspects of Phrasal Movement in English and Polish"</li>
+                                <li>1998: получил степень доктора хабилитованного на основе диссертации "The Syntax of Clitics: Steps Toward a Minimalist Account"</li>
+                                <li>2006: получил титул профессора гуманитарных наук</li>
+                                <li>2010: назначен на должность ординарного профессора</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>С 1988: работает в Институте английской филологии факультета неофилологии УАМ</li>
+                                <li>2008-2016: проректор УАМ по науке и международному сотрудничеству</li>
+                                <li>С 2014: вице-председатель Santander Network</li>
+                                <li>Читал лекции в университетах Штутгарта, Тюбингена, Оттавы, Тромсё, Лейпцига, Берлина и Гёттингена</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <!-- Lisa Bylinina -->
+                        <td colspan="2" style="padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Лиза Былинина</h3>
+                            <p style="margin: 5px 0;"><strong>Доклад:</strong> Typology of numerals and the number line</p>
+                            <img src="../images/speakers/bylinina.png" alt="Лиза Былинина" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px; float: left; margin-right: 20px;">
+                            
+                            <p><strong>Аффилиация:</strong> Лейденский университет</p>
+                            <p><strong>Текущая аффилиация:</strong> Ассистент-профессор компьютерной лингвистики в Утрехтском университете</p>
+                            
+                            <p><strong>Научные интересы:</strong> теоретическая лингвистика, обработка естественного языка, семантика.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>До сентября 2024: ассистент-профессор в Университете Гронингена, Центр языка и познания (CLCG)</li>
+                                <li>С сентября 2024: ассистент-профессор компьютерной лингвистики в Утрехтском университете</li>
+                                <li>Работает в группе Language and Communication, часть Института языковых наук</li>
+                                <li>Член специальной группы интересов NLP@U</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Преподает в магистерской программе Applied Data Science</li>
+                                <li>Преподает в бакалаврской программе Communication and Information Science</li>
+                                <li>Руководит исследовательскими магистерскими диссертациями в области data science, AI и теоретической лингвистики</li>
+                                <li>Специализируется на семантике в рамках теоретической лингвистики</li>
+                            </ul>
+                            
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='speakers2018_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

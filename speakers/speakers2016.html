@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пленарные докладчики 2016 - Типология морфосинтаксических параметров</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.webp" alt="Menu">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Button background">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Button background">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('speakers-submenu')">
+                        <img src="../images/buttoninv.png" alt="Button background">
+                        <span>Приглашенные докладчики</span>
+                    </button>
+                    <ul class="submenu" id="speakers-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../publications.html'">
+                        <img src="../images/buttonpubl.png" alt="Button background">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../programmes.html'">
+                        <img src="../images/buttonprog.png" alt="Button background">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Пленарные докладчики ТМП 2016</h1>
+            
+            <div class="table-container">
+                <table class="speakers-table" style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <!-- Alena Witzlack-Makarevich -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Алена Витцлак-Макаревич</h3>
+                            <img src="../images/speakers/Alena-Witzlack-Makarevich.webp" alt="Алена Витцлак-Макаревич" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Kiel University</p>
+                            <p><strong>Текущая аффилиация:</strong> The Hebrew University of Jerusalem, Department of Linguistics, Faculty of Humanities</p>
+                            
+                            <p><strong>Научные интересы:</strong> описание и объяснение лингвистического разнообразия, грамматические отношения, информационная структура, синтаксическая связь предложений, фонетика, анализ диалога, психолингвистика.</p>
+                            
+                            <p><strong>Исследовательская деятельность:</strong></p>
+                            <ul>
+                                <li>Координатор направления функционалистской лингвистики в Еврейском университете Иерусалима</li>
+                                <li>Сочетает крупномасштабные типологические исследования с микротипологией и углубленными исследованиями отдельных языков</li>
+                                <li>Активно участвует в документировании и описании языков</li>
+                            </ul>
+                            
+                            <p><strong>Полевая работа:</strong></p>
+                            <ul>
+                                <li>Проводила множественные экспедиции для сбора первичных данных по койсанским языкам</li>
+                                <li>Хойхой (Khoekhoe, Khoe-Kwadi) и Нǁнг (Nǀuu, ǃUi-Taa), на которых говорят в Южной Африке</li>
+                                <li>В настоящее время работает над ранее неописанным языком банту рули (Ruuli), на котором говорят в Уганде</li>
+                            </ul>
+                        </td>
+                        
+                        <!-- Tatyana Nikitina -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Татьяна Геннадьевна Никитина (Gensling)</h3>
+                            <img src="../images/speakers/nikitina.png" alt="Татьяна Геннадьевна Никитина" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> (не указана в программе)</p>
+                            <p><strong>Текущая аффилиация:</strong> Доктор филологических наук, профессор ПсковГУ</p>
+                            
+                            <p><strong>Научные интересы:</strong> дифференциальное маркирование подлежащего, информационная структура, народная фразеология, региональная лексикография, псковские говоры.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>Доктор филологических наук</li>
+                                <li>Профессор Псковского государственного университета</li>
+                                <li>Докторская диссертация: "Идеографические аспекты изучения народной фразеологии (на материале псковских говоров)"</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Автор различных словарей, в том числе регионального сленга</li>
+                                <li>Специалист по псковским говорам и региональной лексикографии</li>
+                                <li>Исследователь народной фразеологии и диалектологии</li>
+                            </ul>
+                            
+                            <p><strong>Дополнительно:</strong> Ударник в музыкальной группе «Отцы и дети» (Псков).</p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <!-- Dmitry Sichinava -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Дмитрий Владимирович Сичинава (Gensling)</h3>
+                            <img src="../images/speakers/sichinava.jpg" alt="Дмитрий Владимирович Сичинава" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> (не указана в программе)</p>
+                            <p><strong>Текущая аффилиация:</strong> Институт русского языка им. В. В. Виноградова РАН, НИУ ВШЭ</p>
+                            
+                            <p><strong>Научные интересы:</strong> грамматическая типология, глагол, корпусная лингвистика, параллельные корпуса, сверхпрошлые времена в славянских языках.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>Окончил Отделение теоретической и прикладной лингвистики МГУ (2002)</li>
+                                <li>Кандидатская диссертация (2005): "Типология глагольных систем с синонимией базовых элементов парадигмы" (научный руководитель В. А. Плунгян)</li>
+                                <li>В 2002—2010 гг. работал во ВИНИТИ РАН</li>
+                                <li>С 2011 г. — старший научный сотрудник Института русского языка им. В. В. Виноградова РАН</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Один из инициаторов создания Национального корпуса русского языка (участвует с 2001 г.)</li>
+                                <li>Член редколлегии журнала «Русский язык в научном освещении» (с 2012)</li>
+                                <li>Преподает в НИУ ВШЭ (с 2014 г.): "История языкознания", "Диахроническая лингвистика"</li>
+                                <li>Автор монографии «Типология плюсквамперфекта» (2013) и более 100 публикаций</li>
+                            </ul>
+                        </td>
+                        
+                        <!-- Iván Igartua & Nerea Madariaga -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Иван Игартуа и Нереа Мадариага</h3>
+                            <div style="text-align: center;">
+                                <img src="../images/speakers/igartua.webp" alt="Иван Игартуа" style="max-width: 200px; width: 100%; height: auto; margin: 5px; border-radius: 5px; display: inline-block;">
+                                <img src="../images/speakers/Nerea-Madariaga.webp" alt="Нереа Мадариага" style="max-width: 200px; width: 100%; height: auto; margin: 5px; border-radius: 5px; display: inline-block;">
+                            </div>
+                            
+                            <p><strong>Аффилиация:</strong> University of the Basque Country</p>
+                            
+                            <p><strong>Иван Игартуа:</strong></p>
+                            <ul>
+                                <li>Родился в Витория-Гастейс в 1972 году</li>
+                                <li>Степени по славянской филологии (МГУ, 1995) и романской филологии (Universidad Nacional de Educación a Distancia, 1997)</li>
+                                <li>PhD по классической филологии (University of the Basque Country, 2003)</li>
+                                <li>Вице-ректор кампуса Алава Университета Страны Басков</li>
+                                <li>Ассоциированный профессор славянской филологии (с 2009), аккредитован как полный профессор (с 2016)</li>
+                            </ul>
+                            
+                            <p><strong>Исследования Игартуа:</strong> историческая лингвистика, морфологическая типология, диахрония, историческая морфология славянских языков, реконструкция прото-баскского языка, историческая лексикография баскского языка. Автор дюжины книг и 76 статей в высокорейтинговых изданиях.</p>
+                            
+                            <p><strong>Нереа Мадариага:</strong></p>
+                            <ul>
+                                <li>University of the Basque Country UPV/EHU</li>
+                                <li>Специализация: русский язык, формальный синтаксис, диахрония</li>
+                                <li>Соавтор исследований по русским паукальным конструкциям</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='speakers2016_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

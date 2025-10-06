@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пленарные докладчики 2020 - Типология морфосинтаксических параметров</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.webp" alt="Menu">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Button background">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Button background">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('speakers-submenu')">
+                        <img src="../images/buttoninv.png" alt="Button background">
+                        <span>Приглашенные докладчики</span>
+                    </button>
+                    <ul class="submenu" id="speakers-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../publications.html'">
+                        <img src="../images/buttonpubl.png" alt="Button background">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../programmes.html'">
+                        <img src="../images/buttonprog.png" alt="Button background">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Пленарные докладчики ТМП 2020</h1>
+            
+            <div class="table-container">
+                <table class="speakers-table" style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <!-- Mark Baker -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Марк К. Бейкер</h3>
+                            <p style="margin: 5px 0;"><a href="../abstracts/2020/TMP2020-invited-Baker.pdf" target="_blank" style="text-decoration: none;"><img src="../images/document.png" alt="Abstract" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"><strong>Доклад:</strong> On logophoric pronouns in African languages: Universals, variants, and larger comparisons</a></p>
+                            <img src="../images/speakers/Mark_Baker.jpg" alt="Марк К. Бейкер" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Университет Ратгерса, США</p>
+                            <p><strong>Текущая аффилиация:</strong> Профессор лингвистики в Университете Ратгерса</p>
+                            
+                            <p><strong>Биография:</strong> Родился в 1959 году. Американский лингвист, получил степень PhD в MIT в 1985 году.</p>
+                            
+                            <p><strong>Научные интересы:</strong> генеративная грамматика, полисинтетические языки, формальный анализ языковых структур.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>1985: получил степень PhD в MIT</li>
+                                <li>1986–1998: преподаватель в Университете Макгилла</li>
+                                <li>С 1998: преподает в Университете Ратгерса</li>
+                                <li>Регулярный преподаватель на Летнем институте Лингвистического общества Америки</li>
+                            </ul>
+                            
+                            <p><strong>Исследовательская деятельность:</strong></p>
+                            <ul>
+                                <li>Несколько лет работал с языком мохок</li>
+                                <li>Консультант по возрождению языка мохок</li>
+                                <li>Автор нескольких книг о формальном анализе полисинтетических языков</li>
+                                <li>Работает в рамках генеративной грамматики</li>
+                            </ul>
+                        </td>
+                        
+                        <!-- Marina Chumakina -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Марина Чумакина</h3>
+                            <p style="margin: 5px 0;"><a href="../abstracts/2020/TMP2020-invited-Chumakina.pdf" target="_blank" style="text-decoration: none;"><img src="../images/document.png" alt="Abstract" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"><strong>Доклад:</strong> Unusual agreement targets: Agreement or concord?</a></p>
+                            <img src="../images/speakers/Marina-Chumakina.webp" alt="Марина Чумакина" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Университет Суррея, Великобритания</p>
+                            <p><strong>Текущая аффилиация:</strong> Научный сотрудник в Surrey Morphology Group (SMG)</p>
+                            
+                            <p><strong>Научные интересы:</strong> типология, морфология, лексикография, синтаксис, документация и описание языков, нахско-дагестанские языки.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>2001: получила степень PhD по теоретической и прикладной лингвистике в МГУ им. М.В. Ломоносова</li>
+                                <li>2001: присоединилась к Surrey Morphology Group</li>
+                                <li>Исследовательский центр в Школе литературы и языков</li>
+                            </ul>
+                            
+                            <p><strong>Области специализации:</strong></p>
+                            <ul>
+                                <li>Типология</li>
+                                <li>Морфология</li>
+                                <li>Лексикография</li>
+                                <li>Синтаксис</li>
+                                <li>Документация и описание языков</li>
+                                <li>Нахско-дагестанские языки</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Член Association for Linguistic Typology</li>
+                                <li>Член Societas Linguistica Europaea</li>
+                                <li>Член редакционной коллегии журнала "Languages of the Caucasus"</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <!-- Leonid Kulikov -->
+                        <td colspan="2" style="padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Леонид Куликов</h3>
+                            <p style="margin: 5px 0;"><a href="../abstracts/2020/TMP2020-invited-Kulikov.pdf" target="_blank" style="text-decoration: none;"><img src="../images/document.png" alt="Abstract" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"><strong>Доклад:</strong> Noun incorporation vs. nominal composition in a diachronic typological perspective: Evidence from Indo-European and beyond</a></p>
+                            <img src="../images/speakers/Leonid.kulikov.jpg" alt="Леонид Куликов" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px; float: left; margin-right: 20px;">
+                            
+                            <p><strong>Аффилиация:</strong> Гентский университет, Бельгия</p>
+                            <p><strong>Текущая аффилиация:</strong> Научный сотрудник Гентского университета и Université catholique de Louvain</p>
+                            
+                            <p><strong>Научные интересы:</strong> синхронная и диахронная лингвистическая типология, ведийская филология, ведийская глагольная система и синтаксис, диахронная типология голоса, переходности и валентно-изменяющих категорий.</p>
+                            
+                            <p><strong>Образование:</strong></p>
+                            <ul>
+                                <li>1986: окончил МГУ, отделение структурной и прикладной лингвистики</li>
+                                <li>1989: кандидатская степень в Институте востоковедения, Москва</li>
+                                <li>2001: PhD, Лейденский университет</li>
+                            </ul>
+                            
+                            <p><strong>Профессиональная карьера:</strong></p>
+                            <ul>
+                                <li>1989-1993: Институт востоковедения, Москва</li>
+                                <li>1991-1993: РГГУ, Москва</li>
+                                <li>1993-2002, 2004-2011: Лейденский университет</li>
+                                <li>2002-2004: Университет Неймегена</li>
+                                <li>2005-2007: Гёттингенский университет (стипендия Гумбольдта)</li>
+                                <li>2009-2011: Институт языкознания, Москва</li>
+                                <li>2011-2018, с 2021: Гентский университет</li>
+                                <li>С 2021: Université catholique de Louvain</li>
+                            </ul>
+                            
+                            <p><strong>Редакторская деятельность:</strong></p>
+                            <ul>
+                                <li>Главный редактор Journal of South Asian Languages and Linguistics (de Gruyter)</li>
+                                <li>Член редакционных советов: Journal of Historical Linguistics, Moscow Linguistic Journal, Lingua Posnaniensis</li>
+                                <li>Член научного совета серии Mouton Handbook of Indo-European Typology</li>
+                            </ul>
+                            
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='speakers2020_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Typology of Morphosyntactic Parameters</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="images/logo-rus-eng.png" alt="Typology of Morphosyntactic Parameters" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="images/menu-2925825_1280.png" alt="Menu">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='index_en.html'">
+                        <img src="images/buttonmain.png" alt="Button background">
+                        <span>Home</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="images/buttonconf.png" alt="Button background">
+                        <span>Conferences</span>
+                    </button>
+                    <ul class="submenu" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2025_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2024_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2023_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2022_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2021_en.html'">
+                            <img src="images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2020_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2019_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2018_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2017_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2016_en.html'">
+                            <img src="images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2015_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2014_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2013_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2012_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='conference_2011_en.html'">
+                            <img src="images/buttonconf.png" alt="Button background"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('speakers-submenu')">
+                        <img src="images/buttoninv.png" alt="Button background">
+                        <span>Invited Speakers</span>
+                    </button>
+                    <ul class="submenu" id="speakers-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2025_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2024_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2023_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2022_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2021_en.html'">
+                            <img src="images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2020_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2019_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2018_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2017_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2016_en.html'">
+                            <img src="images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2015_en.html'">
+                            <img src="images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2014_en.html'">
+                            <img src="images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2013_en.html'">
+                            <img src="images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers/speakers2012_en.html'">
+                            <img src="images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn">
+                        <img src="images/buttonpubl.png" alt="Button background">
+                        <span>Publications</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='programmes_en.html'">
+                        <img src="images/buttonprog.png" alt="Button background">
+                        <span>Previous Programmes</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Publications</h1>
+            
+            <p>Here you can find the proceedings of the "Typology of Morphosyntactic Parameters" conference series. Click on the cover image to download the corresponding proceedings in PDF format.</p>
+            
+            <div class="publications-grid">
+                <table style="width: 100%; max-width: 800px; margin: 30px auto; border-spacing: 20px;">
+                    <tr>
+                        <td style="text-align: center; vertical-align: top;">
+                            <a href="files/TMP2014.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+                                <img src="images/publications/2014.png" alt="TMP 2014 Proceedings" 
+                                     style="max-width: 300px; width: 100%; height: auto; border-radius: 8px; 
+                                            box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                                     onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.25)'"
+                                     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)'">
+                                <h3 style="margin: 15px 0 5px 0; color: #2c3e50;">TMP 2014</h3>
+                                <p style="margin: 0; color: #666; font-size: 0.9em;">Conference Proceedings</p>
+                            </a>
+                        </td>
+                        <td style="text-align: center; vertical-align: top;">
+                            <a href="files/TMP2015.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+                                <img src="images/publications/2015.png" alt="TMP 2015 Proceedings" 
+                                     style="max-width: 300px; width: 100%; height: auto; border-radius: 8px; 
+                                            box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                                     onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.25)'"
+                                     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)'">
+                                <h3 style="margin: 15px 0 5px 0; color: #2c3e50;">TMP 2015</h3>
+                                <p style="margin: 0; color: #666; font-size: 0.9em;">Conference Proceedings</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; vertical-align: top;">
+                            <a href="files/TMP2016.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+                                <img src="images/publications/2016.png" alt="TMP 2016 Proceedings" 
+                                     style="max-width: 300px; width: 100%; height: auto; border-radius: 8px; 
+                                            box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                                     onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.25)'"
+                                     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)'">
+                                <h3 style="margin: 15px 0 5px 0; color: #2c3e50;">TMP 2016</h3>
+                                <p style="margin: 0; color: #666; font-size: 0.9em;">Conference Proceedings</p>
+                            </a>
+                        </td>
+                        <td style="text-align: center; vertical-align: top;">
+                            <a href="files/TMP2017.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+                                <img src="images/publications/2017.png" alt="TMP 2017 Proceedings" 
+                                     style="max-width: 300px; width: 100%; height: auto; border-radius: 8px; 
+                                            box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                                     onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.25)'"
+                                     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)'">
+                                <h3 style="margin: 15px 0 5px 0; color: #2c3e50;">TMP 2017</h3>
+                                <p style="margin: 0; color: #666; font-size: 0.9em;">Conference Proceedings</p>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div style="margin-top: 40px; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border-left: 4px solid #007bff;">
+                <p style="margin: 0; color: #495057;"><strong>Note:</strong> The conference proceedings contain abstracts and articles by participants. All materials are provided in PDF format for easy viewing and downloading.</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Contacts<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='publications.html'">
+            RU
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пленарные докладчики 2012 - Типология морфосинтаксических параметров</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="../images/logo-rus-eng.png" alt="Типология морфосинтаксических параметров" class="logo">
+    </header>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <img src="../images/menu-2925825_1280.webp" alt="Menu">
+    </button>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Left sidebar menu -->
+        <nav class="main_menu" id="mainMenu">
+            <ul>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../index.html'">
+                        <img src="../images/buttonmain.png" alt="Button background">
+                        <span>Главная</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('conferences-submenu')">
+                        <img src="../images/buttonconf.png" alt="Button background">
+                        <span>Конференции</span>
+                    </button>
+                    <ul class="submenu" id="conferences-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='../conference_2011.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2011</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn expandable" onclick="toggleSubmenu('speakers-submenu')">
+                        <img src="../images/buttoninv.png" alt="Button background">
+                        <span>Приглашенные докладчики</span>
+                    </button>
+                    <ul class="submenu" id="speakers-submenu">
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2025.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2025</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2024.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2024</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2023.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2023</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2022.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2022</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2021.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2021</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2020.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2020</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2019.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2019</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2018.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2018</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2017.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2017</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2016.html'">
+                            <img src="../images/buttonconf.png" alt="Button background"><span>2016</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2015.html'">
+                            <img src="../images/buttonmain.png" alt="Button background"><span>2015</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2014.html'">
+                            <img src="../images/buttoninv.png" alt="Button background"><span>2014</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2013.html'">
+                            <img src="../images/buttonpubl.png" alt="Button background"><span>2013</span>
+                        </button></li>
+                        <li><button class="submenu-btn" onclick="window.location.href='speakers2012.html'">
+                            <img src="../images/buttonprog.png" alt="Button background"><span>2012</span>
+                        </button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../publications.html'">
+                        <img src="../images/buttonpubl.png" alt="Button background">
+                        <span>Публикации</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-btn" onclick="window.location.href='../programmes.html'">
+                        <img src="../images/buttonprog.png" alt="Button background">
+                        <span>Прошлые программы</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <main class="contentpage">
+            <h1>Пленарные докладчики ТМП 2012</h1>
+            
+            <div class="table-container">
+                <table class="speakers-table" style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <!-- James Lavine -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Джеймс Лавин</h3>
+                            <img src="../images/speakers/Lavine.png" alt="Джеймс Лавин" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Bucknell University</p>
+                            
+                            <p><strong>Научные интересы:</strong> Синтаксическая теория, интерфейс синтаксиса и аргументной структуры, синтаксис и семантика событийной структуры, теория падежа, предикация, сравнительное славянское языкознание, литовский синтаксис.</p>
+                            
+                            <p><strong>Образование:</strong></p>
+                            <ul>
+                                <li>PhD Принстонский университет, 2000 (совместная программа лингвистики и славянских языков)</li>
+                                <li>M.A. Гарвардский университет, Центр российских исследований, 1992 (славянская лингвистика)</li>
+                            </ul>
+                            
+                            <p><strong>Исследовательские позиции:</strong></p>
+                            <ul>
+                                <li>Ведущий исследователь проекта "Валентность, реализация аргументов и грамматические отношения в балтийских языках" (2013–2016, Вильнюсский университет)</li>
+                                <li>Приглашенный исследователь по лингвистике в Принстонском университете (2005, 2007, 2011, 2012, 2017)</li>
+                                <li>Приглашенный постдокторский исследователь в Массачусетском технологическом институте (2000-2001)</li>
+                            </ul>
+                            
+                            <p>Вице-президент (лингвистика) Американской ассоциации преподавателей славянских и восточноевропейских языков (2010-2013). Член редколлегии Journal of Slavic Linguistics.</p>
+                        </td>
+                        
+                        <!-- Pavel Grashchenkov -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Павел Валерьевич Гращенков</h3>
+                            <img src="../images/speakers/Grashchenkov.jpg" alt="Павел Валерьевич Гращенков" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> ИВ РАН (Институт востоковедения РАН)</p>
+                            
+                            <p><strong>Научные интересы:</strong> языковая типология, теория грамматики, синтаксис, грамматические изменения.</p>
+                            
+                            <p><strong>Образование:</strong> Окончил филологический факультет МГУ им. М.В. Ломоносова. В 2006 г. защитил кандидатскую диссертацию на тему «Синтаксис и типология генетивной группы».</p>
+                            
+                            <p><strong>Должности и участие в проектах:</strong></p>
+                            <ul>
+                                <li>Ответственный секретарь журнала ВАК "Rhema. Рема"</li>
+                                <li>Участник проекта "Структура значения и ее отображение в системе лексических и функциональных категорий русского языка" (РНФ 16-18-02003)</li>
+                                <li>Участник проекта "Типология порядка слов, коммуникативно-синтаксический интерфейс и информационная структура высказывания в языках мира" (РНФ 14-18-03270)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <!-- Leonid Iomdin -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Леонид Лейбович Иомдин</h3>
+                            <img src="../images/speakers/Iomdin.jpg" alt="Леонид Лейбович Иомдин" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Годы жизни:</strong> (1947–2024)</p>
+                            <p><strong>Аффилиация:</strong> Институт проблем передачи информации им. А.А. Харкевича РАН</p>
+                            <p><strong>Специализация:</strong> Лингвист, специалист по синтаксису, семантике, лексикографии и компьютерной лингвистике</p>
+                            
+                            <p><strong>Научные интересы:</strong> синтаксис, семантика, лексикография, компьютерная лингвистика, корпусная лингвистика.</p>
+                            
+                            <p>Леонид Лейбович Иомдин был учеником и ближайшим коллегой академика Ю. Д. Апресяна и соавтором многих его проектов, в первую очередь Нового большого англо-русского словаря и лингвистического процессора ЭТАП. Под руководством Л. Л. Иомдина был создан глубоко размеченный корпус русского языка СинТагРус.</p>
+                            
+                            <p><strong>Профессиональная деятельность:</strong></p>
+                            <ul>
+                                <li>Заведовал лабораторией компьютерной лингвистики в Институте проблем передачи информации</li>
+                                <li>Преподавал в нескольких университетах мира</li>
+                                <li>Вел занятия в Российском государственном гуманитарном университете и Московском физико-техническом институте</li>
+                                <li>Участвовал в семинаре Тель-Авивского университета</li>
+                                <li>Регулярно читал лекции на летних лингвистических школах</li>
+                                <li>Участвовал в проверке работ на Московской традиционной олимпиаде по лингвистике и сочинял лингвистические задачи</li>
+                            </ul>
+                        </td>
+                        
+                        <!-- Vladimir Alpatov -->
+                        <td style="width: 50%; padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Владимир Михайлович Алпатов</h3>
+                            <img src="../images/speakers/alpatov.JPG" alt="Владимир Михайлович Алпатов" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            
+                            <p><strong>Аффилиация:</strong> Академик РАН, заведующий отделом языков Восточной и Юго-Восточной Азии, главный научный сотрудник Научно-исследовательского центра по национально-языковым отношениям ИЯз РАН</p>
+                            
+                            <p><strong>Научные интересы:</strong> общее и восточное языкознание, история языкознания, японский язык, социолингвистика, теория частей речи.</p>
+                            
+                            <p>Видный ученый в области общего и восточного языкознания, один из признанных в отечественной науке специалистов по истории языкознания. В Институте языкознания с 2012 года.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>Окончил отделение теоретической и прикладной лингвистики филологического факультета МГУ (1968)</li>
+                                <li>Кандидатская диссертация (1971): «Грамматическая система форм вежливости современного японского литературного языка»</li>
+                                <li>Докторская диссертация (1983): «Проблемы морфемы и слова в современном японском языке»</li>
+                                <li>Член-корреспондент РАН (2008)</li>
+                                <li>Директор Института языкознания РАН (2012-2017)</li>
+                                <li>С 1993 года читает в МГУ курс «История лингвистических учений»</li>
+                                <li>Член Совета при Президенте РФ по русскому языку</li>
+                            </ul>
+                            
+                            <p>Автор выдержавшего несколько переизданий учебного пособия по истории лингвистических учений, монографий о М. М. Бахтине, В. Н. Волошинове, Н. Я. Марре и др. Известен как автор многих лингвистических задач.</p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <!-- Yury Lander -->
+                        <td colspan="2" style="padding: 20px; vertical-align: top; border: 1px solid #ddd;">
+                            <h3>Юрий Александрович Ландер</h3>
+                            <div style="text-align: center;">
+                                <img src="../images/speakers/LanderYury.jpg" alt="Юрий Александрович Ландер" style="max-width: 300px; width: 100%; height: auto; margin: 10px 0; border-radius: 5px;">
+                            </div>
+                            
+                            <p><strong>Аффилиация:</strong> НИУ ВШЭ, ИВ РАН — научный сотрудник отдела языков народов Азии и Африки Института востоковедения РАН, преподаватель РГГУ и НИУ ВШЭ</p>
+                            
+                            <p><strong>Научные интересы:</strong> синтаксическая и лексическая типология, австронезийские языки, кавказские языки, полевая лингвистика.</p>
+                            
+                            <p><strong>Образование и карьера:</strong></p>
+                            <ul>
+                                <li>Окончил факультет теоретической и прикладной лингвистики Российского государственного гуманитарного университета (1999)</li>
+                                <li>С 1999 года работает в отделе языков народов Азии и Африки Института востоковедения РАН</li>
+                                <li>С 2008 года преподаёт (в том числе индонезийский язык) в РГГУ</li>
+                                <li>С 2012 года — руководитель бакалаврской программы «Фундаментальная и компьютерная лингвистика» в НИУ ВШЭ</li>
+                                <li>Кандидат филологических наук (2012): диссертация «Релятивизация в полисинтетическом языке: адыгейские относительные конструкции в типологической перспективе» (руководитель Я. Г. Тестелец)</li>
+                            </ul>
+                            
+                            <p><strong>Полевая работа:</strong> С 2002 года ведёт активную полевую работу, связанную с документацией адыгейского, кабардино-черкесского, удинского и даргинских языков.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fixed bottom line -->
+    <footer class="bottomline">
+        <p>Контакты<br>tmp.2018.moscow@gmail.com</p>
+        <button class="lang-btn" onclick="window.location.href='speakers2012_en.html'">
+            EN
+        </button>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
